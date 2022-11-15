@@ -33,8 +33,9 @@ p {
 }
 
 h3 {
-  font-size: 27px;
+  font-size: 25px;
   color: #23272a;
+  font-weight: 800;
 }
 
 /* NAV */
@@ -241,6 +242,11 @@ ul li a {
   background-color: rgb(48, 48, 48);
 }
 
+footer h3 {
+  color: #758de1;
+  padding-bottom: 20px;
+}
+
 .box {
   height: 425px;
   border: 1px dotted #000;
@@ -249,6 +255,23 @@ ul li a {
 .footer-uno {
   flex-grow: 2;
   background-color: rgb(240, 151, 151);
+}
+
+.BandieraImg {
+  width: 25px;
+}
+
+.fa-solid,
+.fas {
+  font-size: 10px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 11px;
+  color: white;
+  padding: 0px 5px;
+  vertical-align: top;
 }
 
 .footer-due {
