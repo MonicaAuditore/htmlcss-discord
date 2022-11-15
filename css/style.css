@@ -28,8 +28,13 @@ p {
 }
 
 .contenitoreRiferimento {
-  max-width: 1351px;
+  max-width: 1080px;
   margin: 0 auto;
+}
+
+h3 {
+  font-size: 27px;
+  color: #23272a;
 }
 
 /* NAV */
@@ -154,7 +159,7 @@ ul li a {
 }
 
 .minHeader_contenuto {
-  width: 54%;
+  width: 65%;
   text-align: center;
 }
 
@@ -178,9 +183,6 @@ ul li a {
   justify-content: space-between;
 }
 
-.sezione_immagine {
-}
-
 .sezione_testo {
   width: 27%;
   padding-top: 32px;
@@ -199,15 +201,37 @@ ul li a {
 }
 
 .sezione-quattro {
-  height: 500px;
   background-color: #f6f6f6;
-  padding: 100px 0px;
+  padding-top: 100px;
 }
 
 .sezioneQuattro_contenuto {
-  width: 100%;
-  height: 400px;
-  background-color: green;
+  text-align: center;
+}
+
+.sezione_immaginesezioneQuattro img {
+  width: 1080px;
+}
+
+/* CTA */
+
+.cta {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding-bottom: 100px;
+}
+
+.h3SfondoStelle {
+  background-image: url(../img/stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 65px;
+}
+
+.btnCta {
+  margin-top: 40px;
+  background-color: #8ea1e1;
+  color: white;
 }
 
 /* FINE SEZIONI */
