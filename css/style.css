@@ -312,19 +312,18 @@ span {
 }
 
 .footer-logo {
-  height: 70px;
   background-color: #23272a;
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 70px;
 }
 
 .contenuto-footer-logo {
-  height: 50px;
   width: 100%;
-  background-color: aquamarine;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .sezione-container-footer {
@@ -333,18 +332,20 @@ span {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  border-top: 1px solid #7f81ff;
 }
 
 .logo-footer {
-  height: 20px;
-  background-color: pink;
-  border: 1px dotted #000;
   padding-left: 20px;
+  cursor: pointer;
 }
 
 .bottone-footer {
   padding-right: 10px;
-  height: 20px;
-  background-color: pink;
-  border: 1px dotted #000;
+}
+
+.btn-footer-min {
+  width: 80px;
+  background-color: #8ea1e1;
+  color: #ffffff;
 }
