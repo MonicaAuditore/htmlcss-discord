@@ -32,6 +32,7 @@ p {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 h3 {
@@ -228,7 +229,8 @@ main {
 .card-uno,
 .card-due,
 .card-tre,
-.card-quattro {
+.card-quattro,
+.card-cinque {
   width: 580px;
   background-color: #f6f6f6;
   border-radius: 35px;
@@ -254,16 +256,34 @@ main {
   margin-top: 20px;
 }
 
+.card-cinque {
+  margin-top: -135px;
+}
+
+.card-cinque .card-Testo {
+  text-align: left;
+  padding: 64px 45px;
+}
+
+.card-cinque-btn {
+  padding-top: 20px;
+}
+
 .card-Testo {
   padding: 64px 0px;
   text-align: center;
 }
 
-.card-Immagine img {
+.card-Immagine.cut img {
   width: 425px;
   height: 356px;
   object-fit: cover;
   object-position: -20% 0;
+}
+
+.card-Immagine img {
+  width: 460px;
+  height: 356px;
 }
 
 /* FINE CARD */
