@@ -114,10 +114,37 @@ nav {
   color: #464646;
 }
 
+.btn-nav:hover {
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-nav:active {
+  transform: translateY(4px);
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
 .btn-headerWhite {
   background-color: #fff;
   color: #464646;
   margin-right: 24px;
+}
+
+.btn-headerWhite:hover {
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-headerWhite:active {
+  transform: translateY(4px);
+}
+
+.btn-headerDark:hover {
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+  background-color: #2e3336;
+}
+
+.btn-headerDark:active {
+  background-color: #2e3336;
+  transform: translateY(4px);
 }
 
 .btn-headerDark {
@@ -276,8 +303,11 @@ span {
 }
 
 .social {
-  color: #fff;
   padding-top: 10px;
+}
+
+.social a {
+  color: #fff;
   letter-spacing: 7px;
 }
 
@@ -346,4 +376,15 @@ span {
   width: 80px;
   background-color: #8ea1e1;
   color: #ffffff;
+}
+
+.btn-footer-min:active {
+  transform: translateY(4px);
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-footer-min:hover {
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+  color: #8ea1e1;
+  background-color: #ffffff;
 }
