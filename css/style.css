@@ -5,15 +5,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Whitney", sans-serif;
+  font-family: "Whitney Semibold", sans-serif;
+  font-family: "Whitney Book", sans-serif;
+  font-family: "Whitney Light", sans-serif;
+}
+
 .contenitoreRiferimento {
-  max-width: 900px;
+  max-width: 1351px;
   margin: 0 auto;
 }
 
 /* NAV */
 nav {
   height: 70px;
-  background-color: lightblue;
+  background-color: #255ee9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,27 +34,17 @@ nav {
 }
 
 .logo {
-  height: 20px;
-  background-color: orange;
-  border: 1px dotted #000;
   padding-left: 20px;
   flex-grow: 1;
 }
 
 .menu {
-  height: 20px;
-  background-color: orange;
-  border: 1px dotted #000;
   flex-grow: 2;
-}
-
-.login {
-  flex-grow: 1;
 }
 
 ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -59,22 +56,43 @@ ul li {
   list-style: none;
 }
 
+ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .login {
-  height: 20px;
-  background-color: orange;
-  border: 1px dotted #000;
   padding-right: 20px;
   text-align: right;
+  flex-grow: 1;
+}
+
+.btnOne {
+  width: 80px;
+  height: 43px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* STILI BOTTONI */
+
+.btn-nav {
+  background-color: #fff;
+  color: #464646;
 }
 
 /* HEADER */
 .bigHeader {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 350px;
-  background-color: rgb(21, 21, 138);
+  height: 618px;
 }
 
 .minHeader {
