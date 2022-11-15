@@ -146,6 +146,14 @@ nav {
   transform: translateY(4px);
 }
 
+.btn-headerDark:hover {
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-headerDark:active {
+  transform: translateY(4px);
+}
+
 .btn-headerDark {
   background-color: #23272a;
   color: #fff;
@@ -199,6 +207,7 @@ nav {
   color: #fff;
   line-height: 28px;
   padding-bottom: 53px;
+  display: inline-block;
 }
 
 /* PROPRIETA IN COMUNE ALLE SEZIONI*/
