@@ -191,14 +191,16 @@ nav {
 
 /* INIZIO SEZIONI */
 
-.sezione-uno,
-.sezione-tre {
+.sezione-uno {
   padding: 100px 0px;
+}
+.sezione-tre {
+  padding: 40px 0px;
 }
 
 .sezione-due {
   background-color: #f6f6f6;
-  padding: 100px 0px;
+  padding: 35px 0px 100px 0px;
 }
 
 .sezione-quattro {
@@ -345,5 +347,3 @@ span {
   background-color: #8ea1e1;
   color: #ffffff;
 }
-
-/* ONDE */
